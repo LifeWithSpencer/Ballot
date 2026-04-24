@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
             padding: 15mm;
             margin: 10mm auto;
             background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             position: relative;
             box-sizing: border-box;
             page-break-after: always;
@@ -36,7 +37,8 @@
             min-height: 100px;
         }
 
-        .logo-l, .logo-r {
+        .logo-l,
+        .logo-r {
             position: absolute;
             top: 0;
             width: 85px;
@@ -44,11 +46,17 @@
             object-fit: contain;
         }
 
-        .logo-l { left: 0; }
-        .logo-r { right: 0; }
+        .logo-l {
+            left: 0;
+        }
+
+        .logo-r {
+            right: 0;
+        }
 
         .header-text {
-            padding: 0 95px; /* Keeps text from hitting logos */
+            padding: 0 95px;
+            /* Keeps text from hitting logos */
         }
 
         .header-text h1 {
@@ -102,7 +110,8 @@
             border-collapse: collapse;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid #000;
             padding: 8px;
             font-size: 10.5pt;
@@ -145,12 +154,23 @@
 
         /* Printing Adjustments */
         @media print {
-            body { background: none; }
-            .page { margin: 0; box-shadow: none; }
-            @page { size: A4; margin: 0; }
+            body {
+                background: none;
+            }
+
+            .page {
+                margin: 0;
+                box-shadow: none;
+            }
+
+            @page {
+                size: A4;
+                margin: 0;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <div class="page">
@@ -165,7 +185,7 @@
         </div>
 
         <div class="instruction-box">
-            <b>NOTE:</b> Tick <b>INSIDE THE BOX</b> in front of your candidate of choice. 
+            <b>NOTE:</b> Tick <b>INSIDE THE BOX</b> in front of your candidate of choice.
             Do <b>NOT</b> tick outside the box or mark multiple boxes for the same office.
         </div>
 
@@ -179,21 +199,110 @@
                 </tr>
             </thead>
             <tbody>
-                <tr><td>OFFICE OF THE PRESIDENT</td><td>ADEBAYO ODUNOLA MARY</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE VICE PRESIDENT I</td><td>YEKEEN BARAKAT OLAIDE</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE VICE PRESIDENT II</td><td></td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE VICE PRESIDENT III</td><td>ABDULSALAM IBRAHIM ALANI</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE GENERAL SECRETARY</td><td></td><td><div class="v-box"></div></td></tr>
-                <tr><td rowspan="2">OFFICE OF THE ASSISTANT GENERAL SECRETARY</td><td>ONI ABASS ADEDAPO</td><td><div class="v-box"></div></td></tr>
-                <tr><td>HAMMED ABASS OLATUNJI</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER I</td><td>FADIJI ISRAEL</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER II</td><td>ADEOTI PROMISE BOLATITO</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER III</td><td></td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE WELFARE DIRECTOR</td><td>ADEBISI TEMIDUN</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE SPORT DIRECTOR</td><td>OSUNSENI STEPHEN</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE SOCIAL DIRECTOR</td><td></td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE FINANCIAL SECRETARY</td><td>ISOLA JESUTOSIN OLUWASEYI</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE TREASURER</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr>
+                    <td>OFFICE OF THE PRESIDENT</td>
+                    <td>ADEBAYO ODUNOLA MARY</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE VICE PRESIDENT I</td>
+                    <td>YEKEEN BARAKAT OLAIDE</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE VICE PRESIDENT II</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE VICE PRESIDENT III</td>
+                    <td>ABDULSALAM IBRAHIM ALANI</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE GENERAL SECRETARY</td>
+                    <td>MATTHEW REBECCA OLUWASEUN</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">OFFICE OF THE ASSISTANT GENERAL SECRETARY</td>
+                    <td>ONI ABASS ADEDAPO</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>HAMMED ABASS OLATUNJI</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE PUBLIC RELATION OFFICER I</td>
+                    <td>FADIJI ISRAEL</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE PUBLIC RELATION OFFICER II</td>
+                    <td>ADEOTI PROMISE BOLATITO</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE PUBLIC RELATION OFFICER III</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE WELFARE DIRECTOR</td>
+                    <td>ADEBISI TEMIDUN</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE SPORT DIRECTOR</td>
+                    <td>OSUNSENI STEPHEN</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE SOCIAL DIRECTOR</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE FINANCIAL SECRETARY</td>
+                    <td>ISOLA JESUTOSIN OLUWASEYI</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE TREASURER</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 
@@ -219,7 +328,8 @@
         </div>
 
         <div class="instruction-box">
-            <b>NOTE:</b> Ensure you are ticking for the correct Senate position. Blank names can be updated manually by the commission.
+            <b>NOTE:</b> Ensure you are ticking for the correct Senate position. Blank names can be updated manually by
+            the commission.
         </div>
 
         <div class="section-title">SECTION B: SENATE COUNCIL ELECTION</div>
@@ -232,12 +342,48 @@
                 </tr>
             </thead>
             <tbody>
-                <tr><td>OFFICE OF THE SENATE PRESIDENT</td><td>AKINTAYO OLALEKAN</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE DEPUTY SENATE PRESIDENT</td><td></td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE SENATE CLERK</td><td>TAJUDEEN TOHEEB</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE DEPUTY SENATE CLERK</td><td>AJIWE PROMISE</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE CHIEF WHIP</td><td>OGUNLEYE OLUWATOBILOBA</td><td><div class="v-box"></div></td></tr>
-                <tr><td>OFFICE OF THE MACE BEARER</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr>
+                    <td>OFFICE OF THE SENATE PRESIDENT</td>
+                    <td>AKINTAYO OLALEKAN</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE DEPUTY SENATE PRESIDENT</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE SENATE CLERK</td>
+                    <td>TAJUDEEN TOHEEB</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE DEPUTY SENATE CLERK</td>
+                    <td>AJIWE PROMISE</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE CHIEF WHIP</td>
+                    <td>OGUNLEYE OLUWATOBILOBA</td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OFFICE OF THE MACE BEARER</td>
+                    <td></td>
+                    <td>
+                        <div class="v-box"></div>
+                    </td>
+                </tr>
             </tbody>
         </table>
 
@@ -252,4 +398,5 @@
     </div>
 
 </body>
+
 </html>
