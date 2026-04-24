@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAOSS LAUTECH BALLOT 2026</title>
+    <style>
+        /* General Setup */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Paper Simulation for Browser */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm;
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            box-sizing: border-box;
+            page-break-after: always;
+        }
+
+        /* Header Styling - Fixed Centralization */
+        .header {
+            position: relative;
+            text-align: center;
+            border-bottom: 3px double #006400;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            min-height: 100px;
+        }
+
+        .logo-l, .logo-r {
+            position: absolute;
+            top: 0;
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+        }
+
+        .logo-l { left: 0; }
+        .logo-r { right: 0; }
+
+        .header-text {
+            padding: 0 95px; /* Keeps text from hitting logos */
+        }
+
+        .header-text h1 {
+            font-size: 18pt;
+            margin: 0;
+            color: #006400;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .header-text h2 {
+            font-size: 11pt;
+            margin: 8px 0;
+            font-weight: normal;
+        }
+
+        .header-text h3 {
+            font-size: 13pt;
+            margin: 5px 0;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        /* Instructions */
+        .instruction-box {
+            border: 2px solid #000;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 10pt;
+            text-align: center;
+            background-color: #fff9f9;
+        }
+
+        .instruction-box b {
+            color: #d00;
+        }
+
+        /* Tables */
+        .section-title {
+            background-color: #006400;
+            color: white;
+            padding: 8px;
+            font-size: 12pt;
+            margin: 15px 0 5px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            font-size: 10.5pt;
+            height: 35px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-transform: uppercase;
+        }
+
+        .v-box {
+            width: 28px;
+            height: 28px;
+            border: 2px solid #000;
+            margin: 0 auto;
+        }
+
+        /* Footer & Official Area */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 10pt;
+        }
+
+        .official-table {
+            margin-top: 25px;
+            width: 100%;
+            border: none;
+        }
+
+        .official-table td {
+            width: 50%;
+            border: 1px dashed #999;
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        /* Printing Adjustments */
+        @media print {
+            body { background: none; }
+            .page { margin: 0; box-shadow: none; }
+            @page { size: A4; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header">
+            <img class="logo-l" src="./LAUTECH LOGO.jpg" alt="LAUTECH">
+            <img class="logo-r" src="./NAOSS LOGO.jpg" alt="NAOSS">
+            <div class="header-text">
+                <h1>NATIONAL ASSOCIATION OF OSUN STATE STUDENTS [NAOSS]</h1>
+                <h2>LADOKE AKINTOLA UNIVERSITY OF TECHNOLOGY, OGBOMOSO</h2>
+                <h3>CENTRAL EXECUTIVES COUNCIL GENERAL ELECTION</h3>
+            </div>
+        </div>
+
+        <div class="instruction-box">
+            <b>NOTE:</b> Tick <b>INSIDE THE BOX</b> in front of your candidate of choice. 
+            Do <b>NOT</b> tick outside the box or mark multiple boxes for the same office.
+        </div>
+
+        <div class="section-title">SECTION A: CENTRAL EXECUTIVES COUNCIL (CEC)</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 40%;">OFFICE</th>
+                    <th style="width: 45%;">CANDIDATE NAME</th>
+                    <th style="width: 15%; text-align: center;">VOTE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>OFFICE OF THE PRESIDENT</td><td>ADEBAYO ODUNOLA MARY</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE VICE PRESIDENT I</td><td>YEKEEN BARAKAT OLAIDE</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE VICE PRESIDENT II</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE VICE PRESIDENT III</td><td>ABDULSALAM IBRAHIM ALANI</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE GENERAL SECRETARY</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr><td rowspan="2">OFFICE OF THE ASSISTANT GENERAL SECRETARY</td><td>ONI ABASS ADEDAPO</td><td><div class="v-box"></div></td></tr>
+                <tr><td>HAMMED ABASS OLATUNJI</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER I</td><td>FADIJI ISRAEL</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER II</td><td>ADEOTI PROMISE BOLATITO</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE PUBLIC RELATION OFFICER III</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE WELFARE DIRECTOR</td><td>ADEBISI TEMIDUN</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE SPORT DIRECTOR</td><td>OSUNSENI STEPHEN</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE SOCIAL DIRECTOR</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE FINANCIAL SECRETARY</td><td>ISOLA JESUTOSIN OLUWASEYI</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE TREASURER</td><td></td><td><div class="v-box"></div></td></tr>
+            </tbody>
+        </table>
+
+        <div class="footer">POWERED BY THE NAOSSIEC 2025/2026</div>
+
+        <table class="official-table">
+            <tr>
+                <td><b>Serial Number:</b><br><br>#________________</td>
+                <td><b>Official Stamp & Sign:</b><br><br>________________</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page">
+        <div class="header">
+            <img class="logo-l" src="LAUTECH LOGO.jpg" alt="LAUTECH">
+            <img class="logo-r" src="NAOSS LOGO.jpg" alt="NAOSS">
+            <div class="header-text">
+                <h1>NATIONAL ASSOCIATION OF OSUN STATE STUDENTS [NAOSS]</h1>
+                <h2>LADOKE AKINTOLA UNIVERSITY OF TECHNOLOGY, OGBOMOSO</h2>
+                <h3>SENATE COUNCIL ELECTION</h3>
+            </div>
+        </div>
+
+        <div class="instruction-box">
+            <b>NOTE:</b> Ensure you are ticking for the correct Senate position. Blank names can be updated manually by the commission.
+        </div>
+
+        <div class="section-title">SECTION B: SENATE COUNCIL ELECTION</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 40%;">OFFICE</th>
+                    <th style="width: 45%;">CANDIDATE NAME</th>
+                    <th style="width: 15%; text-align: center;">VOTE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>OFFICE OF THE SENATE PRESIDENT</td><td>AKINTAYO OLALEKAN</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE DEPUTY SENATE PRESIDENT</td><td></td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE SENATE CLERK</td><td>TAJUDEEN TOHEEB</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE DEPUTY SENATE CLERK</td><td>AJIWE PROMISE</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE CHIEF WHIP</td><td>OGUNLEYE OLUWATOBILOBA</td><td><div class="v-box"></div></td></tr>
+                <tr><td>OFFICE OF THE MACE BEARER</td><td></td><td><div class="v-box"></div></td></tr>
+            </tbody>
+        </table>
+
+        <div class="footer">POWERED BY THE NAOSSIEC 2025/2026</div>
+
+        <table class="official-table">
+            <tr>
+                <td><b>Serial Number:</b><br><br>#________________</td>
+                <td><b>Official Stamp & Sign:</b><br><br>________________</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
